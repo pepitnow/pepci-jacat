@@ -1,0 +1,17 @@
+coverage
+CDN
+.project
+.settings
+*~
+*.diff
+*.patch
+/*.html
+.DS_Store
+.sizecache.json
+
+# Ignore everything in dist folder except for eslint config
+/dist/*
+!/dist/.eslintrc.json
+
+/external
+/node_modules

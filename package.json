@@ -1,0 +1,27 @@
+{
+  "name": "pepci-jacat",
+  "version": "0.1.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "jest",
+    "build": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pepitnow/pepci-jacat"
+  },
+  "author": "poyop",
+  "license": "MIT",
+  "devDependencies": {
+    "apidoc": "^1.2.0",
+    "grunt": "^1.6.1",
+    "grunt-cli": "^1.4.3",
+    "grunt-contrib-concat": "^2.1.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^4.0.0",
+    "grunt-contrib-uglify": "^5.2.2",
+    "jest": "^29.5.0",
+    "require-dir": "*"
+  }
+}

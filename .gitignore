@@ -1,0 +1,43 @@
+.DS_Store
+
+### Bower ###
+bower_components/
+.bower-cache
+.bower-registry
+.bower-tmp
+
+### Node ###
+node_modules/
+npm-debug.log
+
+### Composer ###
+application/composer.lock
+application/vendor/*
+
+### https://github.com/github/gitignore/blob/master/CodeIgniter.gitignore ###
+*/config/development
+*/logs/log-*.php
+*/logs/!index.html
+*/cache/*
+*/cache/!index.html
+*/cache/!.htaccess
+
+## Source map files (local gulp tasks will still produce .map for debug use) ###
+*.map
+
+### SQL backup files ###
+sql/backup/*
+sql/backup/!index.html
+
+### Database config Mast Be ignored by git
+application/config/database.php
+
+###  Editors blacklist
+nbproject/*
+package-lock.json
+
+### This to make my tests painless
+application/modules/admin/controllers/Playground.php
+application/modules/admin/views/playground.php
+application/modules/admin/library/Playground_lib.php
+application/modules/admin/model/Playground_model.php

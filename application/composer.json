@@ -1,0 +1,11 @@
+{
+    "name": "pepitnow/sirio_web",
+    "require": {
+        "firebase/php-jwt": "^6.0",
+        "google/recaptcha": "~1.1",
+        "league/csv": "^7.2",
+        "mailgun/mailgun-php": "1.8.*",
+        "zircote/swagger-php": "^2.0",
+        "paragonie/sodium_compat": "^1.19"
+    }
+}

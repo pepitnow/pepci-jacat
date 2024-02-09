@@ -1,0 +1,11 @@
+CDN
+coverage
+.project
+.settings
+*~
+*.diff
+*.patch
+/*.html
+.DS_Store
+external
+node_modules
