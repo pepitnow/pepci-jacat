@@ -26,7 +26,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 switch (ENVIRONMENT)
 {
 	case 'development':
-		$config['base_url'] = 'http://pepci.lh';
+		$config['base_url'] = 'http://pepci.lh'; // modify as needed
 		break;
 	case 'testing';
 		$config['base_url'] = '';
