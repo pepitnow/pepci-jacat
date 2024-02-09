@@ -9,7 +9,7 @@ class User extends Admin_Controller {
 		$this->load->library('form_builder');
 	}
 
-	// Frontend User CRUD
+	// Front-office User CRUD
 	public function index()
 	{
 		$crud = $this->generate_crud('users');
@@ -28,7 +28,7 @@ class User extends Admin_Controller {
 			$crud->add_action('Reset Password', '', 'admin/user/reset_password', 'fa fa-repeat');
 		}
 
-		// disable direct create / delete Frontend User
+		// disable direct create / delete Front-office User
 		$crud->unset_add();
 		$crud->unset_delete();
 
@@ -36,7 +36,7 @@ class User extends Admin_Controller {
 		$this->render_crud();
 	}
 
-	// Create Frontend User
+	// Create Front-office User
 	public function create()
 	{
 		$form = $this->form_builder->create_form();
@@ -54,7 +54,7 @@ class User extends Admin_Controller {
 			);
 			$groups = $this->input->post('groups');
 
-			// [IMPORTANT] override database tables to update Frontend Users instead of Admin Users
+			// [IMPORTANT] override database tables to update Front-office Users instead of Admin Users
 			$this->ion_auth_model->tables = array(
 				'users'				=> 'users',
 				'groups'			=> 'groups',
@@ -79,7 +79,7 @@ class User extends Admin_Controller {
 			refresh();
 		}
 
-		// get list of Frontend user groups
+		// get list of Front-office user groups
 		$this->load->model('group_model', 'groups');
 		$this->mViewData['groups'] = $this->groups->get_all();
 		$this->mTitle = 'Create User';
@@ -96,7 +96,7 @@ class User extends Admin_Controller {
 		$this->render_crud();
 	}
 
-	// Frontend User Reset Password
+	// Front-office User Reset Password
 	public function reset_password($user_id)
 	{
 		// only top-level users can reset user passwords
@@ -108,7 +108,7 @@ class User extends Admin_Controller {
 			// pass validation
 			$data = array('password' => $this->input->post('new_password'));
 			
-			// [IMPORTANT] override database tables to update Frontend Users instead of Admin Users
+			// [IMPORTANT] override database tables to update Front-office Users instead of Admin Users
 			$this->ion_auth_model->tables = array(
 				'users'				=> 'users',
 				'groups'			=> 'groups',
