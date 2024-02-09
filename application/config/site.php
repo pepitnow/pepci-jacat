@@ -27,7 +27,7 @@ require_once('main_menu.php');
 $config['site'] = array(
 
 	// Site name
-	'name' => 'Pepci Jacat',
+	'name' => 'PEPCI JACAT',
 
 	// Default page title
 	// (set empty then MY_Controller will automatically generate one based on controller / action)
@@ -36,7 +36,7 @@ $config['site'] = array(
 	// Default meta data (name => content)
 	'meta'	=> array(
 		'author'		=> 'pepITnow! (https://pepitnow.com)',
-		'description'	=> 'Pepci'
+		'description'	=> 'PEPCI JACAT'
 	),
 
 	// Default scripts to embed at page head / end
