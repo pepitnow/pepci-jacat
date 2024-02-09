@@ -1,5 +1,5 @@
 {
-    "name": "pepitnow/sirio_web",
+    "name": "pepitnow/pepci-jacat",
     "require": {
         "firebase/php-jwt": "^6.0",
         "google/recaptcha": "~1.1",
