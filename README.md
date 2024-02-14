@@ -9,7 +9,7 @@ A starter website template that supports Front-office, Back-office and Rest Api 
 
 This repository is developed upon the following tools: 
 * [CodeIgniter](https://github.com/bcit-ci/CodeIgniter/) (v3.1.13) - PHP framework
-* [CodeIgniter HMVC Extensions](https://bitbucket.org/wiredesignz/codeigniter-modular-extensions-hmvc) - modular structure by [wiredesignz](http://wiredesignz.co.nz/)
+* [CodeIgniter HMVC Extensions](https://github.com/NielBuys/codeigniter-modular-extensions-hmvc) - based on the defunct modular structure by [wiredesignz](http://wiredesignz.co.nz/)
 * [codeigniter-base-model](https://github.com/jamierumbelow/codeigniter-base-model) - more advanced CRUD functions for models by [jamierumbelow](https://github.com/jamierumbelow)
 * [codeigniter-restserver](https://github.com/chriskacerguis/codeigniter-restserver) - base setup for API module
 * [Ion Auth](http://benedmunds.com/ion_auth/) - authentication library for CodeIgniter by [Ben Edmunds](http://benedmunds.com/)
